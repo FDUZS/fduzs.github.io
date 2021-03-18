@@ -14,7 +14,7 @@ inputs:
     index: index.html
     error: index.html
   region: ap-shanghai
-  bucketName: sls-website-ap-shanghai-gblfri-1252517621
+  bucketName: sls-website-ap-shanghai-im972ib-1252517621
   protocol: https
   replace: true # 是否覆盖式部署
   disableErrorStatus: false # 是否禁用错误码，默认 false
