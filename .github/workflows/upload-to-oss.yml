@@ -13,7 +13,7 @@ jobs:
       - uses: manyuanrong/setup-ossutil@v2.0
         with:
           endpoint: "oss-accelerate.aliyuncs.com"
-          access-key-id: ${{ OSS_ACCESSKEY_ID }}
-          access-key-secret: ${{ OSS_ACCESSKEY_SECRET }}
+          access-key-id: ${{ secrets.OSS_ACCESSKEY_ID }}
+          access-key-secret: ${{ secrets.OSS_ACCESSKEY_SECRET }}
           # sts-token: "sts_token"
       - run: ossutil cp -rf * oss://iamzs-cn
