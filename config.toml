@@ -1,0 +1,37 @@
+languageCode = "en-us"
+title = "SeisMan"
+baseurl = "https://seisman.info/"
+disableKinds = ["sitemap", "RSS"]
+
+[params]
+  name = "Dongdong Tian"
+  about = "SeisMan &nbsp;&bull;&nbsp; <a href='https://msu.edu/' target='_black'>Michigan State University</a> &nbsp;&bull;&nbsp; Seismologist"
+  copyright = "SeisMan 2013 - 2020"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = ""
+  favicon = "favicon.ico"
+
+[[params.social]]
+  medium = "Academic"
+  icon = "university"
+  link = "https://me.seisman.info/"
+
+[[params.social]]
+  medium = "Blog"
+  icon = "edit"
+  link = "https://blog.seisman.info"
+
+[[params.social]]
+  medium = "Link"
+  icon = "link"
+  link = "https://seismo-learn.org/links/"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://github.com/seisman"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "mailto:seisman.info@gmail.com"

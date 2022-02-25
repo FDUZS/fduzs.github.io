@@ -1,21 +1,25 @@
-name: Upload to OSS
+name: upload to OSS
 
 on:
   push:
     branches:
-      - master
+      - gh-pages
 
 jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          
       - uses: manyuanrong/setup-ossutil@v2.0
         with:
           endpoint: "oss-accelerate.aliyuncs.com"
           access-key-id: ${{ secrets.OSS_ACCESSKEY_ID }}
           access-key-secret: ${{ secrets.OSS_ACCESSKEY_SECRET }}
           # sts-token: "sts_token"
+
       - run: ossutil update -f
       # - run: ossutil rm oss://iamzs-cn/* -rf
       # - run: ossutil cp -rf ./ oss://iamzs-cn/
