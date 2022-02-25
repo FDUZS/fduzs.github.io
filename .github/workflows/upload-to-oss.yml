@@ -3,7 +3,7 @@ name: upload to OSS
 on:
   push:
     branches:
-      - gh-pages
+      - master
 
 jobs:
   upload:
