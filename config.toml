@@ -1,11 +1,11 @@
 languageCode = "en-us"
-title = "###"
+title = "IamZS"
 baseurl = "https://fduzs.github.io"
 disableKinds = ["sitemap", "RSS"]
 
 [params]
   name = "Shuai Zheng"
-  about = "###"
+  about = "nobody"
   copyright = "SeisMan 2013 - 2020"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
@@ -14,22 +14,22 @@ disableKinds = ["sitemap", "RSS"]
 [[params.social]]
   medium = "Academic"
   icon = "university"
-  link = "###"
+  link = "academic"
 
 [[params.social]]
   medium = "Blog"
   icon = "edit"
-  link = "###"
+  link = "blog"
 
 [[params.social]]
-  medium = "Link"
-  icon = "link"
-  link = "###"
+  medium = "Wiki"
+  icon = "book"
+  link = "wiki"
 
-[[params.social]]
-  medium = "Github"
-  icon = "github"
-  link = "###"
+#[[params.social]]
+#  medium = "Github"
+#  icon = "github"
+#  link = "###"
 
 #[[params.social]]
 #  medium = "Email"
