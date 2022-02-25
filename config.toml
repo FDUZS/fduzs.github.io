@@ -1,11 +1,11 @@
 languageCode = "en-us"
-title = "SeisMan"
-baseurl = "https://seisman.info/"
+title = "###"
+baseurl = "https://fduzs.github.io"
 disableKinds = ["sitemap", "RSS"]
 
 [params]
-  name = "Dongdong Tian"
-  about = "SeisMan &nbsp;&bull;&nbsp; <a href='https://msu.edu/' target='_black'>Michigan State University</a> &nbsp;&bull;&nbsp; Seismologist"
+  name = "Shuai Zheng"
+  about = "###"
   copyright = "SeisMan 2013 - 2020"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
@@ -14,24 +14,24 @@ disableKinds = ["sitemap", "RSS"]
 [[params.social]]
   medium = "Academic"
   icon = "university"
-  link = "https://me.seisman.info/"
+  link = "###"
 
 [[params.social]]
   medium = "Blog"
   icon = "edit"
-  link = "https://blog.seisman.info"
+  link = "###"
 
 [[params.social]]
   medium = "Link"
   icon = "link"
-  link = "https://seismo-learn.org/links/"
+  link = "###"
 
 [[params.social]]
   medium = "Github"
   icon = "github"
-  link = "https://github.com/seisman"
+  link = "###"
 
-[[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "mailto:seisman.info@gmail.com"
+#[[params.social]]
+#  medium = "Email"
+#  icon = "envelope-o"
+#  link = "mailto:seisman.info@gmail.com"
