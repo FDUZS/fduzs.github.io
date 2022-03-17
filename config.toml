@@ -14,7 +14,7 @@ disableKinds = ["sitemap", "RSS"]
 [[params.social]]
   medium = "Academic"
   icon = "university"
-  link = "academic"
+  link = "ac"
 
 [[params.social]]
   medium = "Blog"
