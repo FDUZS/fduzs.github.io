@@ -1,55 +1,127 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 | Shuai Zheng</title><link>https://fduzs.github.io/category/%E6%95%99%E7%A8%8B/</link><atom:link href="https://fduzs.github.io/category/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><description>教程</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><image><url>https://fduzs.github.io/media/icon_hu0462e4bbc9d0a3faa2f0bf2d6a78ef6a_21383_512x512_fill_lanczos_center_3.png</url><title>教程</title><link>https://fduzs.github.io/category/%E6%95%99%E7%A8%8B/</link></image><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://fduzs.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://fduzs.github.io/post/getting-started/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;ol>
-&lt;li>The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li>
-&lt;li>The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong>no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong> and having &lt;strong>flexibility to later add even deeper personalization with HTML and CSS&lt;/strong>&lt;/li>
-&lt;li>You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li>
-&lt;/ol>
-&lt;figure id="figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" alt="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
-&lt;/figcaption>&lt;/figure>
-&lt;h2 id="get-started">Get Started&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 | Shuai Zheng</title><link>https://shuaizheng.org/category/%E6%95%99%E7%A8%8B/</link><atom:link href="https://shuaizheng.org/category/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><description>教程</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://shuaizheng.org/media/icon_hu0462e4bbc9d0a3faa2f0bf2d6a78ef6a_21383_512x512_fill_lanczos_center_3.png</url><title>教程</title><link>https://shuaizheng.org/category/%E6%95%99%E7%A8%8B/</link></image><item><title>Zotero 设置</title><link>https://shuaizheng.org/post/zotero-setup/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://shuaizheng.org/post/zotero-setup/</guid><description>&lt;!-- # Zotero 设置 -->
+&lt;p>恰逢 Zotero 6.0 正式版发布没多久，来填两年多前留的这个坑，应该不会太晚。主要讲一讲如何设置并且快速上手使用，而且根据我的观察，很多人对其中一些概念分得似乎不是很清，影响了他们的工作流程设定。&lt;/p>
+&lt;h2 id="前置要求">前置要求&lt;/h2>
+&lt;p>在开始之前，先安装下面的插件和软件。当然，假定你已经安装了 &lt;a href="https://www.zotero.org/download/" target="_blank" rel="noopener">Zotero&lt;/a> 最新版以及你所使用的浏览器对应的 Zotero Connector 插件。&lt;/p>
+&lt;h3 id="插件篇">插件篇&lt;/h3>
 &lt;ul>
-&lt;li>👉 &lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener">&lt;strong>Create a new site&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>📚 &lt;a href="https://wowchemy.com/docs/" target="_blank" rel="noopener">&lt;strong>Personalize your site&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>💬 &lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Chat with the &lt;strong>Wowchemy community&lt;/strong>&lt;/a> or &lt;a href="https://discourse.gohugo.io" target="_blank" rel="noopener">&lt;strong>Hugo community&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>🐦 Twitter: &lt;a href="https://twitter.com/wowchemy" target="_blank" rel="noopener">@wowchemy&lt;/a> &lt;a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">@GeorgeCushen&lt;/a> &lt;a href="https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query" target="_blank" rel="noopener">#MadeWithWowchemy&lt;/a>&lt;/li>
-&lt;li>💡 &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/issues" target="_blank" rel="noopener">Request a &lt;strong>feature&lt;/strong> or report a &lt;strong>bug&lt;/strong> for &lt;em>Wowchemy&lt;/em>&lt;/a>&lt;/li>
-&lt;li>⬆️ &lt;strong>Updating Wowchemy?&lt;/strong> View the &lt;a href="https://wowchemy.com/docs/hugo-tutorials/update/" target="_blank" rel="noopener">Update Tutorial&lt;/a> and &lt;a href="https://wowchemy.com/updates/" target="_blank" rel="noopener">Release Notes&lt;/a>&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://zotfile.com/" target="_blank" rel="noopener">ZotFile&lt;/a> 可以方便添加附件及重命名&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/l0o0/jasminum" target="_blank" rel="noopener">Jasminum - 茉莉花&lt;/a> 对国内文献数据库（如：CNKI）支持良好，可自动下载文献 PDF&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://retorque.re/zotero-better-bibtex/" target="_blank" rel="noopener">Better BibTeX&lt;/a> 可选，如果你不知道 LaTeX 是啥的话&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/ethanwillis/zotero-scihub" target="_blank" rel="noopener">Zotero Scihub&lt;/a> 可帮助你尝试从 Sci-Hub 上下载文献&lt;/p>
+&lt;/li>
 &lt;/ul>
-&lt;h2 id="crowd-funded-open-source-software">Crowd-funded open-source software&lt;/h2>
-&lt;p>To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p>
-&lt;h3 id="-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans">&lt;a href="https://wowchemy.com/plans/" target="_blank" rel="noopener">❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a>&lt;/h3>
-&lt;p>As a token of appreciation for sponsoring, you can &lt;strong>unlock &lt;a href="https://wowchemy.com/plans/" target="_blank" rel="noopener">these&lt;/a> awesome rewards and extra features 🦄✨&lt;/strong>&lt;/p>
-&lt;h2 id="ecosystem">Ecosystem&lt;/h2>
+&lt;h3 id="软件篇">软件篇&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://github.com/wowchemy/hugo-academic-cli" target="_blank" rel="noopener">Hugo Academic CLI&lt;/a>:&lt;/strong> Automatically import publications from BibTeX&lt;/li>
+&lt;li>&lt;a href="https://www.pdflabs.com/tools/pdftk-server/" target="_blank" rel="noopener">PDFtk Server&lt;/a> 上面的茉莉花插件需要，可帮助自动生成和添加 PDF 书签（仅在支持的情况下，如国内硕博论文和一些外文期刊。下载硕博论文 PDF 版，可转到&lt;a href="https://chn.oversea.cnki.net/index/" target="_blank" rel="noopener">知网海外版&lt;/a>）。你可通过 &lt;a href="https://www.iamzs.top/archives/scoop-guidebook.html" target="_blank" rel="noopener">Scoop&lt;/a> 安装 &lt;code>scoop install pdftk&lt;/code>。当然，也可手动&lt;a href="https://www.pdflabs.com/tools/pdftk-server/" target="_blank" rel="noopener">安装&lt;/a>。由于我使用的是 Windows，如果你是其他系统的话，请到上面茉莉花页面查看对应安装说明。&lt;/li>
 &lt;/ul>
-&lt;h2 id="inspiration">Inspiration&lt;/h2>
-&lt;p>&lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener">Check out the latest &lt;strong>demo&lt;/strong>&lt;/a> of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href="https://wowchemy.com/user-stories/" target="_blank" rel="noopener">view the &lt;strong>showcase&lt;/strong>&lt;/a> of personal, project, and business sites.&lt;/p>
-&lt;h2 id="features">Features&lt;/h2>
+&lt;h3 id="账号篇">账号篇&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>Page builder&lt;/strong> - Create &lt;em>anything&lt;/em> with &lt;a href="https://wowchemy.com/docs/page-builder/" target="_blank" rel="noopener">&lt;strong>widgets&lt;/strong>&lt;/a> and &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">&lt;strong>elements&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Edit any type of content&lt;/strong> - Blog posts, publications, talks, slides, projects, and more!&lt;/li>
-&lt;li>&lt;strong>Create content&lt;/strong> in &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">&lt;strong>Markdown&lt;/strong>&lt;/a>, &lt;a href="https://wowchemy.com/docs/import/jupyter/" target="_blank" rel="noopener">&lt;strong>Jupyter&lt;/strong>&lt;/a>, or &lt;a href="https://wowchemy.com/docs/install-locally/" target="_blank" rel="noopener">&lt;strong>RStudio&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Plugin System&lt;/strong> - Fully customizable &lt;a href="https://wowchemy.com/docs/customization/" target="_blank" rel="noopener">&lt;strong>color&lt;/strong> and &lt;strong>font themes&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Display Code and Math&lt;/strong> - Code highlighting and &lt;a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="noopener">LaTeX math&lt;/a> supported&lt;/li>
-&lt;li>&lt;strong>Integrations&lt;/strong> - &lt;a href="https://analytics.google.com" target="_blank" rel="noopener">Google Analytics&lt;/a>, &lt;a href="https://disqus.com" target="_blank" rel="noopener">Disqus commenting&lt;/a>, Maps, Contact Forms, and more!&lt;/li>
-&lt;li>&lt;strong>Beautiful Site&lt;/strong> - Simple and refreshing one page design&lt;/li>
-&lt;li>&lt;strong>Industry-Leading SEO&lt;/strong> - Help get your website found on search engines and social media&lt;/li>
-&lt;li>&lt;strong>Media Galleries&lt;/strong> - Display your images and videos with captions in a customizable gallery&lt;/li>
-&lt;li>&lt;strong>Mobile Friendly&lt;/strong> - Look amazing on every screen with a mobile friendly version of your site&lt;/li>
-&lt;li>&lt;strong>Multi-language&lt;/strong> - 34+ language packs including English, 中文, and Português&lt;/li>
-&lt;li>&lt;strong>Multi-user&lt;/strong> - Each author gets their own profile page&lt;/li>
-&lt;li>&lt;strong>Privacy Pack&lt;/strong> - Assists with GDPR&lt;/li>
-&lt;li>&lt;strong>Stand Out&lt;/strong> - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li>
-&lt;li>&lt;strong>One-Click Deployment&lt;/strong> - No servers. No databases. Only files.&lt;/li>
+&lt;li>
+&lt;p>Zotero 账号，官网注册即可&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>支持 WebDAV 协议的云存储工具，如&lt;a href="https://www.jianguoyun.com/" target="_blank" rel="noopener">坚果云&lt;/a>等，下文以此为例&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>任一你常用的云存储服务，如 OneDrive 等，下文以此为例&lt;/p>
+&lt;/li>
 &lt;/ul>
-&lt;h2 id="themes">Themes&lt;/h2>
-&lt;p>Wowchemy and its templates come with &lt;strong>automatic day (light) and night (dark) mode&lt;/strong> built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener">Demo&lt;/a> to see it in action! Day/night mode can also be disabled by the site admin in &lt;code>params.toml&lt;/code>.&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/customization" target="_blank" rel="noopener">Choose a stunning &lt;strong>theme&lt;/strong> and &lt;strong>font&lt;/strong>&lt;/a> for your site. Themes are fully customizable.&lt;/p>
-&lt;h2 id="license">License&lt;/h2>
-&lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen&lt;/a>.&lt;/p>
-&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item></channel></rss>
+&lt;h2 id="软件及插件设置">软件及插件设置&lt;/h2>
+&lt;p>以下描述中英文参杂，我也懒得切换软件语言和配图，还请仔细查找对照设置项。以下选项属个人偏好，如果第一次使用的话，可完全根据我的来，之后再作调整。&lt;/p>
+&lt;p>不过到这里出现了两种路径，即只在桌面端使用 Zotero 和搭配 iPad 使用。在那之前，先介绍一下 Zotero，我们利用它保存的无非两种数据：文献条目信息及对应的附件，前者包含文献的元数据，方便写作时引用和著录，后者则是文献 PDF 和笔记等。Zotero 免费提供了 300MB 的存储空间，如果附件也一并同步的话肯定是不够的，当然你也可以年付 120 美金以获取无限空间，那样的话也不用纠结和折腾了。&lt;/p>
+&lt;p>好了，确定你我都是暂时无力负担官方存储服务之人，在附件同步的选择上只剩下链接形式和 WebDAV 这两种，与上面两种路径分别对应。使用前者同步的是纯 PDF 文件，使用后者的话，每一条文献条目会同步两个文件，一个是 PDF 的压缩文件，另一个我也不知道是啥，可参看&lt;a href="https://www.zotero.org/support/sync" target="_blank" rel="noopener">官方文档&lt;/a>页面。&lt;/p>
+&lt;p>因此，如果不需要在平板上看文献的话，我不建议使用 WebDAV 同步。顺嘴说一句，团队类型的文献库即使是附件也只能通过官方同步，不过个人使用可以先不管。&lt;/p>
+&lt;h3 id="两种路径共有设置">两种路径共有设置&lt;/h3>
+&lt;h4 id="general">General&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>取消勾选 Automatically take snapshots when creating items from web pages&lt;/p>
+&lt;p>我不需要它自动创建文献的网页快照&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>取消勾选 Automatically rename attachment files using parent metadata&lt;/p>
+&lt;p>使用 ZotFile 来重命名&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>取消勾选 Automatically tag items with keywords and subject headings&lt;/p>
+&lt;p>不让软件自动打标签&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="cite">Cite&lt;/h4>
+&lt;ul>
+&lt;li>添加国标引用和著录样式，留给你自己去探索&lt;/li>
+&lt;/ul>
+&lt;h4 id="茉莉花插件">茉莉花插件&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>勾选 Retrieve CNKI meta data when add Chinese articles&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>PDFtk Server Execute File Path 选择 PDFtk Server 安装目录下的 bin 目录&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在 Unofficial Translators Repository 中更新所有解析器，并在 浏览器插件设置 Advanced - Translators 中点击 Update Translators&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="zotero-scihub-插件">Zotero Scihub 插件&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>取消勾选自动下载 PDF，在新版本中它可能会打断浏览器插件和茉莉花插件的文献下载&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>根据实际情况修改 URL，如 &lt;a href="https://sci-hub.se/" target="_blank" rel="noopener">https://sci-hub.se/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="zotfile-插件">ZotFile 插件&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>Source Folder for Attaching Files 设置为常用的下载文件夹&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Other Advanced Settings 选择 Always rename&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="区别设置">区别设置&lt;/h3>
+&lt;h4 id="只在桌面端使用">只在桌面端使用&lt;/h4>
+&lt;p>Sync&lt;/p>
+&lt;ul>
+&lt;li>登录账号并取消勾选 Sync automatically，也可保持勾选&lt;/li>
+&lt;/ul>
+&lt;p>Advanced&lt;/p>
+&lt;ul>
+&lt;li>Base Directory 设置为 OneDrive PDF 文件夹，即你想放置和同步 PDF 文献的地方&lt;/li>
+&lt;/ul>
+&lt;p>ZotFile 插件设置&lt;/p>
+&lt;ul>
+&lt;li>Custom Location 设置为上述 Base Directory&lt;/li>
+&lt;/ul>
+&lt;h4 id="搭配-ipad-使用">搭配 iPad 使用&lt;/h4>
+&lt;p>Sync&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>登录账号并在下方文件同步处将默认的 Zotero 改为 WebDAV，这是坚果云官方提供的&lt;a href="https://help.jianguoyun.com/?p=3168" target="_blank" rel="noopener">帮助文档&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在 iPad 上登录账号，并将同步方式改为 WebDAV，使用方式同上&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="结尾">结尾&lt;/h2>
+&lt;p>至此，大致的工作流已经形成了。&lt;/p>
+&lt;p>采用 WebDAV 同步的同学，在数据库中看到一篇不错的文献，点击浏览器上插件的图标将自动为你抓取文献信息和尝试下载文献 PDF 并保存到 Zotero 上。否则你将需要手动下载保存到常用下载文件夹，然后回到 Zotero 右键点击该文献条目，选择 Attach New File，弹出对话框询问你是否将最近下载的那个文件添加为附件。然后，坚果云等工具工作，便可以在 iPad 上点击文献条目，下载文献，阅读。你在任一平台上做的笔记也会同步到其他平台。在 Zotero 6.0 正式版和移动端推出后我就是转向这种方式的。&lt;/p>
+&lt;p>采用另一种方式同步的同学，前面添加文献条目和附件的步骤都相同，你甚至也能在 iPad 上阅读（比如安装 OneDrive iPad 版），但是无法直接在 Zotero 移动端中像上面一样点击阅读，因为你是以链接形式添加的附件。&lt;/p>
+&lt;!-- **Sync**
+登录账号并取消勾选 Sync automatically（弃用）
+附件通过坚果云与 iPad 同步（新增） -->
+&lt;!-- **Advanced**
+Base Directory 设置为 OneDrive PDF 文件夹（弃用） -->
+&lt;!-- **ZotFile 插件设置**
+Source Folder for Attaching Files 设置为下载文件夹
+Custom Location 设置为上述 Base Directory（弃用）
+Other Advanced Settings 选择 Always rename --></description></item></channel></rss>
