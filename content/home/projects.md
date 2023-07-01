@@ -27,8 +27,8 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
+  - name: Computational Social Science
+    tag: Computational Social Science
   - name: Other
     tag: Demo
 

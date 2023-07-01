@@ -1,8 +1,8 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: The Missing Semester of Your CSS Education
+summary: An entry-level guide to Computational Social Science.
 tags:
-- Deep Learning
+- Computational Social Science
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

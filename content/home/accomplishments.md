@@ -23,30 +23,30 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
+- certificate_url: /uploads/Programming for Everybody (Getting Started with Python).pdf
   date_end: ""
-  date_start: "2021-01-25"
+  date_start: "2021-03-11"
   description: ""
   organization: Coursera
   organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
-  url: ""
-- certificate_url: https://www.edx.org
+  title: Programming for Everybody (Getting Started with Python)
+  url: https://www.coursera.org/learn/python/home/welcome
+- certificate_url: /uploads/What is Data Science.pdf
   date_end: ""
-  date_start: "2021-01-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
-  organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-- certificate_url: https://www.datacamp.com
-  date_end: "2020-12-21"
-  date_start: "2020-07-01"
+  date_start: "2021-03-11"
   description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R'
-  url: ""
+  organization: Coursera
+  organization_url: https://www.coursera.org
+  title: What is Data Science?
+  url: https://www.coursera.org/learn/what-is-datascience/home/welcome
+- certificate_url: https://github.com/FDUZS/Gov51
+  date_end: "2022-05-13"
+  date_start: "2022-06-13"
+  description: ""
+  organization: Harvard University
+  organization_url: https://www.harvard.edu/
+  title: Data Analysis and Politics
+  url: https://gov51.mattblackwell.org/
 
 design:
   columns: '2' 

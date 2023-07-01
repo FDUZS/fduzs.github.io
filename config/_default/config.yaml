@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Shuai Zheng # Website name
-baseURL: 'https://fduzs.github.io' # Website URL
+baseURL: 'https://shuaizheng.org' # Website URL
 
 ############################
 ## LANGUAGE
